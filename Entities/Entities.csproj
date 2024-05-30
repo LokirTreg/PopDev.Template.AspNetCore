@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Setting2.cs" />
+    <Compile Include="Author.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="BookAuthor.cs" />
+    <Compile Include="BookGenre.cs" />
+    <Compile Include="CopyOfBook.cs" />
+    <Compile Include="Debtor.cs" />
+    <Compile Include="Genre.cs" />
+    <Compile Include="IssuedBook.cs" />
+    <Compile Include="Librarian.cs" />
+    <Compile Include="Penalty.cs" />
+    <Compile Include="PenaltyDebtor.cs" />
+    <Compile Include="Publisher.cs" />
+    <Compile Include="Reader.cs" />
+    <Compile Include="Queue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+</Project>

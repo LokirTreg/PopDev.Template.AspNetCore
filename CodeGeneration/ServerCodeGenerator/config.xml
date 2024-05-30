@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<generationSettings solutionFolderPath="..\..\..\..\..\" existingFilesProcessMode="Overwrite" maxLineWidth="120"/>
+	<entities>
+		<!--<entity name="Client">
+			<properties>
+				<property dbName="RegistrationStatusId" entityName="RegistrationStatus" entityType="Common.Enums.ClientRegistrationStatus, Common"/>
+			</properties>
+		</entity>
+		<entity name="Seller">
+			<properties>
+				<property dbName="ActivityTypeId" entityName="ActivityType" entityType="Common.Enums.SellerActivityType, Common"/>
+			</properties>
+		</entity>
+		<entity name="IdentityCheck">
+			<properties>
+				<property dbName="ActionTypeId" entityName="ActionType" entityType="Common.Enums.IdentityCheckActionType, Common"/>
+				<property dbName="StatusId" entityName="Status" entityType="Common.Enums.IdentityCheckStatus, Common"/>
+			</properties>
+			<files>
+				<file type="Model">False</file>
+				<file type="Controller">False</file>
+				<file type="ViewIndex">False</file>
+				<file type="ViewUpdate">False</file>
+			</files>
+		</entity>
+		<entity name="Vehicle"/>
+		<entity name="Purchase">
+			<properties>
+				<property dbName="PaymentStatusId" entityName="PaymentStatus" entityType="Common.Enums.PurchasePaymentStatus, Common"/>
+			</properties>
+		</entity>-->
+		<entity name="Author"/>
+		<entity name="Book"/>
+		<entity name="BookAuthor"/>
+		<entity name="BookGenre"/>
+		<entity name="CopyOfBook"/>
+		<entity name="Debtor"/>
+		<entity name="Genre"/>
+		<entity name="IssuedBook"/>
+		<entity name="Librarian"/>
+		<entity name="Penalty"/>
+		<entity name="PenaltyDebtor"/>
+		<entity name="Publisher"/>
+		<entity name="Reader"/>
+		<entity name="Queue"/>
+	</entities>
+</configuration>
